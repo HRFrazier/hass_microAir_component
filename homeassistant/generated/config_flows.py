@@ -341,6 +341,7 @@ FLOWS = {
         "meteo_france",
         "meteoclimatic",
         "metoffice",
+        "microair_climate",
         "microbees",
         "mikrotik",
         "mill",

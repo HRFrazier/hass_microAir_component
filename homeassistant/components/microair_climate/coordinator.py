@@ -99,7 +99,7 @@ class MicroAirCoordinatorHub(update_coordinator.DataUpdateCoordinator[None]):
 
     async def _async_update_data(self) -> None:
         """Update the state."""
-        _LOGGER.info("Updating state for %s", self.name)
+        # _LOGGER.info("Updating state for %s", self.name)
         try:
             url = "http://" + self._ip_addr + "/ShortStatus"
             resp = await self._session.post(url)
